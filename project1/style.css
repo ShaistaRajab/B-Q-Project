@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(252, 248, 248);
+}
+li,a{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    font-size: 400;
+    font-weight: 700;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+.logo{
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    /* padding: 0px 30px; */
+    margin: 0px 30px;
+}
+.navlink li{
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+
+.sec1{
+    width: 100%;
+    height: 400px;
+    background-image: url(jjppp.jpg);
+    background-size: cover/center;
+    text-align: center;
+    padding-top: 30px;
+}
+.sec1 h1{
+    color: aliceblue;
+    font-weight: 1000;
+    margin: 10px 0px;
+    font-style: italic;
+    
+}
+.sec1 button{
+    border-radius: 10px;
+    padding: 5px 15px;
+    border-color: aqua;
+    background-color: none;
+    margin: 30px 0px;
+}
+.sec2{
+    width: 100%;
+    /* height: 300px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec2 div{
+    width: 90%;
+}
+.sec2h1,p{
+    padding: 10px 15px;
+    color: rgb(80, 76, 76);
+
+}
+.sec3{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around; 
+}
+
+.sec3 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+
+}
+.sec3 img{
+    width: 500px;
+    height: 500px;
+}
+.sec3 p{
+    padding: 45px 20px;
+}
+.sec3,p,h1{
+    color: rgb(61, 60, 60);
+}
+.sec4{
+    width: 100%;
+    height: 300px;
+   background-image: linear-gradient(rgba(66,84,81,0.5),rgba(43,56,54,0.5)), url(wp2020163.jpg);
+   /* background-repeat: no-repeat; */
+   background-size: cover;
+   text-align: center;
+}
+.s4h1,.s4p1{
+    padding-top: 40px;
+    color: rgb(248, 244, 234);
+    font-weight: 1000;
+    font-size: 700;
+    margin: 10px ;
+}
+.sec4 button{
+    border-radius: 10px;
+    padding: 5px 25px;
+    border: none;
+}
+.sec5>h1{
+    text-align: center;
+    margin: 30px 0;
+}
+.loc{
+    display: flex;
+    justify-content: space-around;
+}
+.loc-item{
+    flex-basis: 17%;
+    font-size: 10px;
+    padding: 0 20px;
+    box-shadow: 0px 0px 33px 14px rgba(0,0,0,0.75);
+}
+.loc-item p{
+    line-height: 1.7;
+    padding: 0;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.loc-item i{
+    font-size: 30px;
+    margin: 20px 0;
+    color: white;
+    background: #5c3686;
+    padding: 20px;
+    border-radius: 50%;
+}
+.cakes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 0;
+    align-items: center;
+}
+.cakes ul li{
+    display: inline-block;
+    padding: 15px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+.cakes p{
+    line-height: 1.7;
+    padding: 0 50px;
+}
+.cakerow{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px;
+    width: 90%;
+}
+.cake-item{
+    flex-basis: 31%;
+    margin-top: 20px;
+}
+.cake-item img{
+    border-radius: 20px; 
+    width: 100%;
+}
+footer{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 35px;
+    color: white;
+    font-size: 25px;
+}

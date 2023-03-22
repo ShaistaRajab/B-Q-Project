@@ -2,61 +2,78 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 body{
-    background-color: rgb(252, 248, 248);
+    background-image: url(https://img.freepik.com/free-photo/cream-cake-with-cherry-plate_1170-675.jpg?size=626&ext=jpg&ga=GA1.1.1780171559.1679326320&semt=ais);
+  color: rgba(245, 245, 220, 0.863);
+    width: 100%;
+   height: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-color:rgba
+    (0, 0, 0, 0.5);
 }
 li,a{
     color: rgb(12, 12, 12);
     text-decoration: none;
     font-size: 400;
     font-weight: 700;
+   
+    
 }
-/* header style */
 
 header{
     display: flex;
     justify-content: space-between;
+    width: 100%;
     align-items: center;
-    padding: 30px 10px;
-}
+    background-color:antiquewhite;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    
+    }
 .logo{
     cursor: pointer;
     height: 50px;
     width: 200px;
     /* padding: 0px 30px; */
     margin: 0px 30px;
+    
 }
 .navlink li{
     display: inline-block;
     padding: 0px 40px;
- }
-/* hero section style */
+    
+    
+     }
+
 
 .sec1{
     width: 100%;
-    height: 400px;
-    background-image: url(jjppp.jpg);
-    background-size: cover/center;
+    height: 500px;
+    background-image:url(https://e0.pxfuel.com/wallpapers/610/22/desktop-wallpaper-rich-chocolate-cake-with-a-cherry-on-top.jpg);
+   
+    background-size: cover;
+    justify-content: center;
     text-align: center;
-    padding-top: 30px;
-}
-.sec1 h1{
-    color: aliceblue;
-    font-weight: 1000;
-    margin: 10px 0px;
-    font-style: italic;
-    font-size: 30px;
+    padding-top: 5px;
     
 }
-.sec1 button{
-    border-radius: 10px;
-    padding: 5px 15px;
-    border-color: aqua;
-    background-color: none;
-    margin: 30px 0px;
+.sec1 h1{
+    color:antiquewhite;
+    font-weight: 1000;
+    margin:120px;
+    font-style: italic;
+    font-size: 30px;
+    text-align:center;
+    
 }
-/* general style */
+
+
+
 .sec2{
     width: 100%;
     /* height: 300px; */
@@ -70,7 +87,10 @@ header{
 }
 .sec2h1,p{
     padding: 10px 15px;
-    color: rgb(80, 76, 76);
+    color: rgb(2, 1, 1);
+}
+.sec2p{
+    color: rgb(27, 25, 25);
 
 }
 .sec3{
@@ -80,6 +100,7 @@ header{
     justify-content: space-around; 
 }
 
+
 .sec3 div{
     display: flex;
     flex-direction: column;
@@ -87,18 +108,19 @@ header{
     align-items: center;
     width: 500px;
     height: 500px;
-
+     
 }
 .sec3 img{
     width: 500px;
     height: 500px;
-}
+   }
 .sec3 p{
     padding: 45px 20px;
 }
 .sec3,p,h1{
     color: rgb(61, 60, 60);
 }
+
 .sec4{
     width: 100%;
     height: 300px;
@@ -106,7 +128,9 @@ header{
    /* background-repeat: no-repeat; */
    background-size: cover;
    text-align: center;
+   
 }
+ 
 .s4h1,.s4p1{
     padding-top: 40px;
     color: rgb(248, 244, 234);
@@ -119,6 +143,13 @@ header{
     padding: 5px 25px;
     border: none;
 }
+ button span{
+         color: black;
+}
+button span:hover{
+    color: #5c3686;
+}
+
 .sec5>h3{
     text-align: center;
     margin: 30px 0;
@@ -126,18 +157,26 @@ header{
 .loc{
     display: flex;
     justify-content: space-around;
+    
 }
+
+
+
 .loc-item{
+    
     flex-basis: 17%;
     font-size: 10px;
     padding: 0 20px;
     box-shadow: 0px 0px 33px 14px rgba(0,0,0,0.75);
 }
+
+
 .loc-item p{
     line-height: 1.7;
     padding: 0;
     font-size: 15px;
     margin: 10px 0;
+    color: rgb(183, 198, 211);
 }
 .loc-item i{
     font-size: 30px;
@@ -158,11 +197,19 @@ header{
     display: inline-block;
     padding: 15px;
     background-color: antiquewhite;
-    border-radius: 30px;
+    border-radius: 30px;   
+}
+li span{
+    color:black ;
+}
+li span:hover{
+    color: #5c3686;
+   
 }
 .cakes p{
     line-height: 1.7;
-    padding: 0 50px;
+    padding: 15px 50px 15px;
+    color:rgb(255, 255, 255);
 }
 .cakerow{
     display: flex;
@@ -174,7 +221,14 @@ header{
 .cake-item{
     flex-basis: 31%;
     margin-top: 20px;
-}
+    transition: all 0.5s ease-in-out;
+    }
+.cake-item:hover{
+    transform: scale(1.1);
+
+    }
+
+
 .cake-item img{
     border-radius: 20px; 
     width: 100%;

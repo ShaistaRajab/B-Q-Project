@@ -4,6 +4,7 @@
     padding: 0;
 
 }
+/* header style */
 body{
     background-image: url(https://img.freepik.com/free-photo/cream-cake-with-cherry-plate_1170-675.jpg?size=626&ext=jpg&ga=GA1.1.1780171559.1679326320&semt=ais);
   color: rgba(245, 245, 220, 0.863);
@@ -49,7 +50,7 @@ header{
     
     
      }
-
+/* general style */
 
 .sec1{
     width: 100%;
@@ -275,11 +276,11 @@ footer{
     width: 240px;
     height: 400px;
 }
+/*     footer style */
 
 .navlink li{
     margin: 5px;
 }
 .logo{
     width: 100px;
-}
 }
